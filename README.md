@@ -18,33 +18,46 @@ The Dividend Forecasting Tool is designed to provide users with the capability t
 
 - **Database Integration**: The application integrates with a MySQL database to store and retrieve historical data and forecasts.
 
+## Database Setup
+
+To set up the MySQL database for this project, follow these steps:
+
+1. **Install MySQL Server 8.0 or higher**:
+   - During installation:
+     - Deploy the server on port 3306.
+     - Create a user named "User" with the password "Qwer1234".
+
+2. **Install MySQL Workbench**:
+   - After installation, use MySQL Workbench to import the database file located in the "DB" folder onto your server.
+
+
 ## Installation
 
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-
+```bash
 git clone https://github.com/Khauzuki/DividendForecasting.git
-
+```
 
 2. Navigate to the project directory:
-
+```bash
 cd dividend-forecasting-tool
-
+```
 
 3. Install dependencies:
-
+```bash
 npm install
-
+```
 
 4. Configure the MySQL database connection in the `config.js` file.
 
 5. Start the application:
-
+```bash
 npm start
+```
 
-
-6. Open a web browser and access the application at `http://localhost:3000`.
+6. Open a web browser and access the application at `http://localhost:5000`.
 
 ## Usage
 
