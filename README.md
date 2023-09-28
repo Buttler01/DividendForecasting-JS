@@ -1,5 +1,10 @@
 # Dividend Forecasting Tool
 
+## Screenshot
+
+![Main Page Screenshot](https://github.com/Khauzuki/DividendForecasting/blob/main/graphic/photo_2023-09-28_19-42-08.jpg)
+
+
 ## Overview
 
 This project was created as part of a coursework assignment at Belarusian State University of Informatics and Radioelectronics (BSUIR). It is implemented using JavaScript, Node.js, and Express.js, with a MySQL database. The project's theme revolves around the **Design and Development of a Dividend Yield Forecasting Software Tool for Financial Instruments**.
