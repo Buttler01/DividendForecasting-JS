@@ -11,15 +11,15 @@
 			<col width="170">
 			<col width="150">
 			<tr style="text-align:center;">
-				<th id="id" style="text-align:center">Идентификатор</th>
-				<th id="login">Компания</th>
-				<th id="role">Форма владения</th>
-				<th id="password">Хар-ки обращаемости</th>
-				<th id="password">Форма существования</th>
-				<th id="password">Срок сущ.</th>
-				<th id="password">Дата выпуска</th>
-				<th id="password">Стоимость ед. (руб)</th>
-				<th id="password">Дивиденды (%)</th>
+				<th id="id" style="text-align:center">Identifier</th>
+				<th id="login">Company</th>
+				<th id="role">Form of ownership</th>
+				<th id="password">Characteristics of negotiability</th>
+				<th id="password">Form of existence</th>
+				<th id="password">Lifespan</th>
+				<th id="password">Date of issue</th>
+				<th id="password">Unit cost (rub)</th>
+				<th id="password">Dividends (%)</th>
 			</tr>
 			<% for(var i=0; i < papers.length; i++) { %>
 				<form class=<%=papers[i].ID %> action="deletePaper" method = "post">
@@ -84,7 +84,7 @@
 
 
 	<div class="form-container">
-		<h1 style="font-size: 24px; text-align: center; margin-top: 5%;">РАССЧИТАТЬ ДОХОДНОСТЬ БУМАГ:</h1>
+		<h1 style="font-size: 24px; text-align: center; margin-top: 5%;">CALCULATE SECURITY YIELD:</h1>
 		<input type="text" name="kolvo" class="form-field" placeholder="Кол-во бумаг">
 		<input type="date" name="dateSumIn" class="form-field">
 		<input type="text" name="itogSum" class="form-field" placeholder="Итоговая сумма (р.)">
@@ -92,7 +92,7 @@
 	</div>
 
 	<div class="graph-container">
-		<h1 style="font-size: 24px; text-align: center; margin-top: 5%;">ГРАФИК ИЗМЕНЕНИЯ СТОИМОСТИ:</h1>
+		<h1 style="font-size: 24px; text-align: center; margin-top: 5%;">PRICE CHANGE SCHEDULE:</h1>
 		<canvas id="myChart"></canvas>
 	</div>
 

@@ -1,5 +1,5 @@
 <main id="main-holder" class="apple-form">
-  <h1 id="login-header">РЕДАКТИРОВАТЬ ПОЛЬЗОВАТЕЛЯ: <%= login %>
+  <h1 id="login-header">EDIT USER: <%= login %>
   </h1>
   <img src="images/modifyUser.png" class="apple-image" />
   <form action="/modifyUserPost2" method="post" id="login-form">
@@ -10,10 +10,10 @@
       value="<%= login %>">
     <p>
       <select size="4" name="role" class="apple-input" style="font-size:17px;text-align:center;width:100%">
-        <option disabled>Выберите роль</option>
-        <option value="admin">Администратор</option>
-        <option value="user+">Финансист</option>
-        <option value="user">Пользователь</option>
+        <option disabled>Select a role</option>
+        <option value="admin">Administrator</option>
+        <option value="user+">Financier</option>
+        <option value="user">User</option>
       </select>
     </p>
     <input type="submit" value="Изменить" class="login-form-submit apple-submit" style="margin-top:2%">
