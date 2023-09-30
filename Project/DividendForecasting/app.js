@@ -1,8 +1,12 @@
 // Imports
+const chalk = require('chalk')
 const express = require('express')
 const bodyParser = require('body-parser')
 const expressLayouts = require('express-ejs-layouts')
 const url = require('url')
+
+//const errorMsg = chalk.bgKeyword('white').redBright;;
+//const successMsg = chalk.bgKeyword('green').white;
 
 const app = express()
 const port = 5000
